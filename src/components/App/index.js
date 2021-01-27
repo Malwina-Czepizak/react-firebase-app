@@ -1,9 +1,12 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+import Navigation from '../Navigation';
 
 const App = () => (
-    <div>
-        <h1>This is React App using Firebase</h1>
-    </div>
+    <Router>
+        <Navigation />
+    </Router>
 );
 
 export default App;
